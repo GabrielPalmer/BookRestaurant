@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7463FD3721DE5991006AA844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD3621DE5991006AA844 /* AppDelegate.swift */; };
-		7463FD3921DE5991006AA844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD3821DE5991006AA844 /* ViewController.swift */; };
 		7463FD3C21DE5991006AA844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7463FD3A21DE5991006AA844 /* Main.storyboard */; };
 		7463FD3E21DE5994006AA844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7463FD3D21DE5994006AA844 /* Assets.xcassets */; };
 		7463FD4121DE5994006AA844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7463FD3F21DE5994006AA844 /* LaunchScreen.storyboard */; };
 		7463FD4C21DE5994006AA844 /* BookRestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD4B21DE5994006AA844 /* BookRestaurantTests.swift */; };
 		7463FD5721DE5994006AA844 /* BookRestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD5621DE5994006AA844 /* BookRestaurantUITests.swift */; };
+		7463FD6721DE5E0C006AA844 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD6621DE5E0C006AA844 /* CategoryTableViewController.swift */; };
+		7463FD6921DE5E1F006AA844 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD6821DE5E1F006AA844 /* OrderTableViewController.swift */; };
+		7463FD6B21DE5E44006AA844 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD6A21DE5E44006AA844 /* MenuTableViewController.swift */; };
+		7463FD6D21DE5F56006AA844 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD6C21DE5F56006AA844 /* MenuItemDetailViewController.swift */; };
+		7463FD6F21DE5FA9006AA844 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD6E21DE5FA9006AA844 /* MenuItem.swift */; };
+		7463FD7221DE6172006AA844 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD7121DE6172006AA844 /* IntermediaryModels.swift */; };
+		7463FD7821DFA851006AA844 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD7721DFA850006AA844 /* MenuController.swift */; };
+		7463FD7A21DFB398006AA844 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463FD7921DFB398006AA844 /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		7463FD3321DE5991006AA844 /* BookRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7463FD3621DE5991006AA844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7463FD3821DE5991006AA844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7463FD3B21DE5991006AA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7463FD3D21DE5994006AA844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7463FD4021DE5994006AA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		7463FD5221DE5994006AA844 /* BookRestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookRestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7463FD5621DE5994006AA844 /* BookRestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRestaurantUITests.swift; sourceTree = "<group>"; };
 		7463FD5821DE5994006AA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7463FD6621DE5E0C006AA844 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		7463FD6821DE5E1F006AA844 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		7463FD6A21DE5E44006AA844 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		7463FD6C21DE5F56006AA844 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		7463FD6E21DE5FA9006AA844 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		7463FD7121DE6172006AA844 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		7463FD7721DFA850006AA844 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		7463FD7921DFB398006AA844 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				7463FD3621DE5991006AA844 /* AppDelegate.swift */,
-				7463FD3821DE5991006AA844 /* ViewController.swift */,
 				7463FD3A21DE5991006AA844 /* Main.storyboard */,
+				7463FD6421DE5B9E006AA844 /* Controllers */,
+				7463FD6521DE5BAE006AA844 /* Models */,
 				7463FD3D21DE5994006AA844 /* Assets.xcassets */,
 				7463FD3F21DE5994006AA844 /* LaunchScreen.storyboard */,
 				7463FD4221DE5994006AA844 /* Info.plist */,
@@ -123,6 +138,28 @@
 				7463FD5821DE5994006AA844 /* Info.plist */,
 			);
 			path = BookRestaurantUITests;
+			sourceTree = "<group>";
+		};
+		7463FD6421DE5B9E006AA844 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7463FD6621DE5E0C006AA844 /* CategoryTableViewController.swift */,
+				7463FD6A21DE5E44006AA844 /* MenuTableViewController.swift */,
+				7463FD6C21DE5F56006AA844 /* MenuItemDetailViewController.swift */,
+				7463FD6821DE5E1F006AA844 /* OrderTableViewController.swift */,
+				7463FD7921DFB398006AA844 /* ConfirmationViewController.swift */,
+				7463FD7721DFA850006AA844 /* MenuController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7463FD6521DE5BAE006AA844 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7463FD6E21DE5FA9006AA844 /* MenuItem.swift */,
+				7463FD7121DE6172006AA844 /* IntermediaryModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7463FD3921DE5991006AA844 /* ViewController.swift in Sources */,
+				7463FD7821DFA851006AA844 /* MenuController.swift in Sources */,
+				7463FD6D21DE5F56006AA844 /* MenuItemDetailViewController.swift in Sources */,
+				7463FD6B21DE5E44006AA844 /* MenuTableViewController.swift in Sources */,
+				7463FD7A21DFB398006AA844 /* ConfirmationViewController.swift in Sources */,
 				7463FD3721DE5991006AA844 /* AppDelegate.swift in Sources */,
+				7463FD6F21DE5FA9006AA844 /* MenuItem.swift in Sources */,
+				7463FD6921DE5E1F006AA844 /* OrderTableViewController.swift in Sources */,
+				7463FD6721DE5E0C006AA844 /* CategoryTableViewController.swift in Sources */,
+				7463FD7221DE6172006AA844 /* IntermediaryModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
